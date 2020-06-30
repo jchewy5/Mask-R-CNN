@@ -1,0 +1,6 @@
+_BASE_: "../base_mcv.yaml"
+MODEL:
+  WEIGHTS: "/home/jchoi/Projects/output/mcv_only_final.pth"
+  MASK_ON: True
+  RESNETS:
+    DEPTH: 50
